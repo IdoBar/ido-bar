@@ -1,0 +1,93 @@
+## Basic Configuration
+
+baseurl = "https://ido-bar.netlify.com/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Ido Bar"
+title = "Ido Bar"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Ido Bar"
+intro = "Genomics, Informatics and Education"
+description = "Gemnomics Research, Data informatics and how to make it all work together"
+authorimage = "profile_pic.jpeg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "idobar"
+# instagram = "idobargafni"
+# xing = "<username>"
+linkedin = "idobar"
+twitter = "dridobar"
+# facebook = "<username>"
+# google = "<username>"
+# stackoverflow = "<username>"
+# lastfm = "<username>"
+# goodreads = "<username>"
+# gitlab = "<username>"
+# bitbucket = "<username>"
+# fivehundredpx = "<username>"
+# flickr = "<username>"
+# foursquare = "<username>"
+# hackernews = "<username>"
+# kickstarter = "<username>"
+# patreon = "<username>"
+# pintrest = "<username>"
+# steam = "<username>"
+# reddit = "<username>"
+# snapchat = "<username>"
+# youtube = "<username>"
+# keybase = "<username>"
+# twitch = "<username>"
+# soundcloud = "<username>"
+# tumblr = "<username>"
+skype = "ido.bar"
+# telegram = "<username>"
+whatsapp = "+61435718770"
+email = "i.bar@griffith.edu.au"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+## Extras
+[params.extra]
+copyright = "© Ido Bar 2019 [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
+[[menu.main]]
+    name = "coderag"
+    identifier = "coderag"
+    weight = 300
+    url = "/coderag/"
